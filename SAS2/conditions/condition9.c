@@ -1,13 +1,13 @@
 #include <stdio.h> 
 
 int main() {
-    int sb; 
+    float sb; 
     int nh; 
     int type;
     float tauxH;
-    float salaireSup;
-    float salaireTot;
-
+    float salaireSupH;
+    float salaireH;
+    float primeTot;
 
     printf("Entrez salaire de base (en euros) : ");
     scanf("%f", &sb); 
@@ -20,19 +20,22 @@ int main() {
 
     //on suppose l'utilisateur travail 160 h/mois
     tauxH = sb / 160;
-    salaireSup = 1.5 * nh;
+    salaireH = 1.5 * tauxH;
+    salaireSupH = nh * salaireH;
 
-
-    if ( type == 1 )
+    if (type == 1)
     {
-          sb *= 0.20;
-          salaireTot = sb + 0
-          printf(" Prime pour poste senior : %d\n", sb);
+          sb *= 0.2;
+          printf(" Prime pour poste senior : %.2f\n", sb);
+          primeTot = sb + salaireSupH;
+          printf(" Prime Total pour poste senior : %.2f\n", primeTot);
     }
-    else if (  sb == 2)
+    else if (type == 2)
     {
-          sb *= 0.10;
-          printf(" Prime pour poste junior : %d\n", sb);
+          sb *= 0.1;
+          printf(" Prime pour poste junior : %.2f\n", sb);
+          primeTot = sb + salaireSupH;
+          printf(" Prime Total pour poste junior : %.2f\n", primeTot);
     }
     else {
         printf("Invalid");
