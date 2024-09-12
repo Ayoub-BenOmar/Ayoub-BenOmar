@@ -3,7 +3,6 @@
 int main(){
 
        int num;
-       int i;
 
        printf("Entrer nombre d'elements d'un tableau : ");
        scanf("%d", &num);
