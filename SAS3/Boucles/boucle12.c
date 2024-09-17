@@ -10,7 +10,8 @@ int main()
 
     int tableaux[num];
 
-        for (int i = 0; i < num; i++)
+    
+    for (int i = 0; i < num; i++)
     {
         printf("Entrer l'element du tableau %d : ", i + 1);
         scanf("%d", &tableaux[i]);
@@ -29,6 +30,7 @@ int main()
         }
     }
 
+    printf("Tableau trie : ");
     for (int i = 0; i < num; i++)
     {
         printf("%d ", tableaux[i]);

@@ -1,22 +1,25 @@
 #include <stdio.h>
 
-int main(){
-
-    int num;
-
-        printf("Entrer le nombre des elements de tableau : ");
-        scanf("%d", &num);
-    int tableau[num];
-
-    for (int i = 0; i < num; i++){
-        printf("Entrer les elements de tableau : ");
-        scanf("%d", &tableau[i]);
-       }
-    for (int i = 0; i < num; i++)
+void inverserTableau(int tableau[], int taille)
+{
+    int temp;
+    for (int i = 0; i < taille / 2; i++)
     {
-        /* code */
+        temp = tableau[i];
+        tableau[i] = tableau[taille - 1 - i];
+        tableau[taille - 1 - i] = temp;
     }
-    
+}
 
-      return 0;
+int main()
+{
+    int tableau[] = {1, 2, 3, 4, 5};
+    int taille = sizeof(tableau) / sizeof(tableau[0]);
+    inverserTableau(tableau, taille);
+    for (int i = 0; i < taille; i++)
+    {
+        printf("%d ", tableau[i]);
     }
+    printf("\n");
+    return 0;
+}
