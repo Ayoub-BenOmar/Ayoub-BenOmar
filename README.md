@@ -1,22 +1,28 @@
-<h1 align="center">Hi there 👋, I'm [Your Name]</h1>
-<h3 align="center">A passionate Full-Stack & Software Developer building scalable applications</h3>
+<div align="center">
+
+# 🐉 Hi there, I'm Ayoub Ben Omar
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/YOUR-USERNAME/YOUR-USERNAME/output/github-contribution-grid-snake-dark.svg" alt="Snake Animation" width="100%" />
+</p>
+
+</div>
+
+---
+
+### ⚡ What I'm Working With
+
+<div align="center">
+  
+> **My main stack is:** ☕ **Java Spring Boot**, 🅰️ **Angular**, and 🔄 **Apache Kafka**  
+> **Currently learning:** 🤖 **Agentic AI** and **AI Integration**
+
+</div>
 
 <br/>
 
-## 🛠️ Tech Stack & Tools
-
 <p align="center">
-  <!-- Languages -->
-  <img src="https://skillicons.dev/icons?i=java,js,ts,html,css,php,c" alt="Languages" />
-  <br/>
-  <!-- Frameworks & Libraries -->
-  <img src="https://skillicons.dev/icons?i=spring,angular,react,vue,laravel,nodejs,express,tailwind" alt="Frameworks" />
-  <br/>
-  <!-- Databases & Backend Tools -->
-  <img src="https://skillicons.dev/icons?i=mysql,postgres,mongodb,prisma,hibernate,apache,maven,tomcat" alt="Databases & Tools" />
-  <br/>
-  <!-- DevOps, Cloud & Workflow -->
-  <img src="https://skillicons.dev/icons?i=docker,git,github,githubactions,postman,jira,vercel,netlify,render,figma" alt="DevOps & Workflow" />
+  <img src="https://skillicons.dev/icons?i=java,spring,angular,kafka,ts,js,maven,gradle,docker,postgres,mysql,mongodb,git,github,postman" alt="Tech Stack" />
 </p>
 
 <br/>
